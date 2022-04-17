@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.adyenlogo {
+    width: 90px;
+}
+
+.searchlogo {
+    width: 14px;
+    position: absolute;
+    left: 76%;
+    top: 4.5%;
+}
+
+.nav-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 62%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    justify-content: space-between;
+    margin-left: 75px;
+    font-weight: bolder;
+    color: black;
+}
+
+li:hover {
+    border-top: #0abf53 3px solid;
+}
+
+button {
+    background-color: #0abf53;
+    color: white;
+    width: 135px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    position: absolute;
+    right: 6.5%;
+    top: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    position: absolute;
+    right: 18%;
+    font-size: 15px;
+    top: 4%;
+}
