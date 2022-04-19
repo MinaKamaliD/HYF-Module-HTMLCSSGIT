@@ -4,36 +4,56 @@
     padding: 0;
 }
 
-li {
-    list-style: none;
-    padding-top: 20px;
-}
-
-.adyenlogo {
-    width: 90px;
-}
-
-.searchlogo {
-    width: 14px;
-    position: absolute;
-    left: 76%;
-    top: 4.5%;
-}
-
-.nav-text {
+nav {
     display: flex;
     flex-wrap: wrap;
-    max-width: 62%;
+    max-width: 93.5%;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    justify-content: space-between;
     margin-left: 75px;
     font-weight: bolder;
     color: black;
 }
 
-li:hover {
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.left li {}
+
+.navtext:hover {
     border-top: #0abf53 3px solid;
+}
+
+.adyenlogo {
+    width: 90px;
+    border-top: none;
+    padding-top: 20px;
+}
+
+.searchlogo {
+    width: 14px;
+    padding-top: 28px;
+}
+
+.login {
+    padding-top: 26px;
 }
 
 button {
@@ -45,10 +65,7 @@ button {
     border: none;
     font-size: 16px;
     font-weight: bold;
-    margin-top: 0px;
-    position: absolute;
-    right: 6.5%;
-    top: 2%;
+    margin-top: 14px;
 }
 
 a {
@@ -56,9 +73,12 @@ a {
     color: black;
 }
 
-.login {
-    position: absolute;
-    right: 18%;
-    font-size: 15px;
-    top: 4%;
+.navtext {
+    margin-left: 35px;
+    padding-top: 30px;
+    padding-top: 25px;
+}
+
+.right li {
+    margin-left: 20px;
 }
