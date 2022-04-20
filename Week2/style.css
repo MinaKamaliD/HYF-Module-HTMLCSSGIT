@@ -1,196 +1,253 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@1,100&display=swap');
- * {
-     margin: 0;
-     padding: 0;
- }
- 
- nav {
-     display: flex;
-     flex-wrap: wrap;
-     max-width: 93.5%;
- }
- 
- .left {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     font-family: 'Montserrat', sans-serif;
-     font-size: 16px;
-     margin-left: 75px;
-     font-weight: bolder;
-     color: black;
- }
- 
- .right {
-     display: flex;
-     flex-wrap: wrap;
-     margin-left: auto;
-     font-family: 'Montserrat', sans-serif;
-     font-size: 16px;
-     font-weight: bolder;
-     color: black;
- }
- 
- li {
-     list-style: none;
- }
- 
- .navtext:hover {
-     border-top: #0abf53 3px solid;
- }
- 
- .adyenlogo {
-     width: 90px;
-     border-top: none;
-     padding-top: 20px;
- }
- 
- .searchlogo {
-     width: 14px;
-     padding-top: 28px;
- }
- 
- .login {
-     padding-top: 26px;
- }
- 
- button {
-     background-color: #0abf53;
-     color: white;
-     width: 135px;
-     height: 42px;
-     border-radius: 8px;
-     border: none;
-     font-size: 16px;
-     font-weight: bold;
-     margin-top: 14px;
- }
- 
- a {
-     text-decoration: none;
-     color: black;
- }
- 
- .navtext {
-     margin-left: 35px;
-     padding-top: 30px;
-     padding-top: 25px;
- }
- 
- .right li {
-     margin-left: 20px;
- }
- /* footer */
- 
- footer {
-     width: 100%;
-     background-color: #00112c;
-     display: flex;
-     flex-wrap: wrap;
-     color: white;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     padding: 70px 70px;
- }
- 
- .footer-heading1 {
-     display: flex;
-     flex-direction: column;
-     line-height: 30px;
- }
- 
- .footer-heading2 {
-     display: flex;
-     flex-direction: column;
-     line-height: 30px;
-     margin-left: 80px;
- }
- 
- .footer-heading3 {
-     display: flex;
-     flex-direction: column;
-     line-height: 30px;
-     margin-left: 80px;
- }
- 
- .footer-heading4 {
-     display: flex;
-     flex-direction: column;
-     line-height: 30px;
-     margin-left: 80px;
- }
- 
- .footer-email {
-     width: 30%;
-     padding-left: 80px;
- }
- 
- .title {
-     font-weight: bolder;
-     font-size: 16px;
- }
- 
- a {
-     color: white;
-     font-size: 14px;
- }
- 
- .footer-email h3 {
-     font-size: 14px;
- }
- 
- .footer-email p {
-     font-size: 12px;
-     color: gray;
-     width: 390px;
- }
- 
- input {
-     margin-top: 14px;
- }
- 
- .email {
-     width: 320px;
-     height: 50px;
-     border-top-left-radius: 8px;
-     border-bottom-left-radius: 8px;
-     background-color: #00112c;
-     font-size: 16px;
-     padding-left: 10px;
-     border: 0.5px gray solid;
-     margin-bottom: 10px;
- }
- 
- .submit {
-     width: 50px;
-     height: 50px;
-     font-size: 16px;
-     border: 0.5px gray solid;
-     font-weight: bolder;
-     border-top-right-radius: 8px;
-     border-bottom-right-radius: 8px;
- }
- 
- .copyright {
-     width: 900px;
- }
- 
- .languages {
-     margin-left: 570px;
-     margin-top: 0%;
-     padding-top: 0%;
-     display: block;
-     width: 500px;
-     color: white;
-     font-size: 15px;
-     font-weight: bolder;
- }
- 
- .test {
-     display: flex;
-     border-top: 1px gray solid;
-     width: 90%;
-     font-size: 12px;
-     color: gray;
-     margin-top: 70px;
-     padding-top: 30px;
- }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 93.5%;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 75px;
+    font-weight: bolder;
+    color: black;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.navtext:hover {
+    border-top: #0abf53 3px solid;
+}
+
+.adyenlogo {
+    width: 90px;
+    border-top: none;
+    padding-top: 20px;
+}
+
+.searchlogo {
+    width: 14px;
+    padding-top: 28px;
+}
+
+.login {
+    padding-top: 26px;
+}
+
+button {
+    background-color: #0abf53;
+    color: white;
+    width: 135px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navtext {
+    margin-left: 35px;
+    padding-top: 30px;
+    padding-top: 25px;
+}
+
+.right li {
+    margin-left: 20px;
+}
+
+
+/* content */
+
+.content {
+    display: flex;
+    max-width: 88%;
+    justify-content: space-between;
+    margin-left: 5.5%;
+}
+
+.box-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 140px;
+    width: 40%;
+}
+
+.box-1 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 54px;
+    color: #00112C;
+    margin-bottom: 35px;
+}
+
+.box-1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #00112C;
+    line-height: 30px;
+}
+
+.box-1 button {
+    width: 170px;
+}
+
+.box-2 {
+    margin-top: 15px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 88%;
+    margin-left: 6%;
+    color: #00112C;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.lg {
+    width: 170px;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #00112c;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 70px 70px;
+}
+
+.footer-heading1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.footer-heading2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-left: 80px;
+}
+
+.footer-heading3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-left: 80px;
+}
+
+.footer-heading4 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-left: 80px;
+}
+
+.footer-email {
+    width: 30%;
+    padding-left: 80px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+footer a {
+    color: white;
+    font-size: 14px;
+}
+
+.footer-email h3 {
+    font-size: 14px;
+}
+
+.footer-email p {
+    font-size: 12px;
+    color: gray;
+    width: 390px;
+}
+
+input {
+    margin-top: 14px;
+}
+
+.email {
+    width: 320px;
+    height: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #00112c;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 0.5px gray solid;
+    margin-bottom: 10px;
+}
+
+.submit {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    border: 0.5px gray solid;
+    font-weight: bolder;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.copyright {
+    width: 900px;
+}
+
+.languages {
+    margin-left: 570px;
+    margin-top: 0%;
+    padding-top: 0%;
+    display: block;
+    width: 500px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.test {
+    display: flex;
+    border-top: 1px gray solid;
+    width: 90%;
+    font-size: 12px;
+    color: gray;
+    margin-top: 70px;
+    padding-top: 30px;
+}
